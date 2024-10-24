@@ -1,0 +1,260 @@
+Q1. What is software? What is software engineering?
+
+ANS 
+1 :- software 
+Software is a set of instructions, data or programs which is used to operate computers and perform a specific tasks which is given to the computer 
+
+2 :- software Engineering 
+Software engineering is an engineering  to design, develop, test, and maintain the software. It aims to produce high-quality software that is reliable, efficient, maintainable, and fulfil the needs of users.
+
+Q2. Explain types of software
+ 
+Ans:- There are many types of software like
+
+Application software.
+System software.
+Middleware.
+Driver software.
+Programming software.
+Freeware.
+Open source software.
+Proprietary software or close software.
+
+The two main categories of software are application software and system software. 
+
+An application is software that fulfils a specific need or performs tasks
+
+System software is designed to run a computer's hardware and provides a platform for applications to run on top of.
+
+Q3. What is SDLC? Explain each phase of SDLC
+
+Ans:- The Software Development Life Cycle (SDLC). is a process that helps to develop high-quality, low-cost software, in the shortest time
+
+Planning
+planning is all about what we want in project and to build it like assign 
+the tasks and resources required to build the project.      
+
+Analysis  
+Analysis: This phase involves     
+gathering information about the software requirement from coustomer.
+
+Design 
+In this phase, the software design is created, which includes the architecture of the software.
+
+Implications (coding)
+The devloper devlop the software by writing code on the basis of design and programming  language they chose
+
+Testing 
+After the software was developed . 
+The next phase was  Testing: The software is tested to ensure that it meets the user requirements and works correctly.
+
+Maintenance 
+This phase is about to maintain the software. This phase includes bug fixes and updates to the software.
+
+
+4. What is DFD? Create a DFD diagram on Flipkart
+
+
+ANS:- DFD (Data Flow Diagram) is a graphical representation of the flow of data through a system or process. It's a visualization tool used to:
+
+1. Identify and clarify system requirements
+2. Model data flow and interactions
+3. Analyze and improve system efficiency
+
+A DFD typically consists of:
+
+1. Processes (represented by bubbles or rectangles)
+2. Data flows (represented by arrows)
+3. Data stores (represented by open-ended rectangles)
+4. External entities (represented by rectangles or squares)
+
+
+
+                                      +-----------------+
+                                      |  Customer       |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      | Flipkart System |
+                                      |  (Process)      |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |Payment Gateway  |
+                                      |(External Entity)|
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      | Product Database|
+                                      |  (Data Store)   |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |  Order Database |
+                                      |  (Data Store)   |
+                                      +-----------------+
+
+
+
+
+
+                                      +-----------------+
+                                      |User Registration|
+                                      | (Process)       |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |Product Search   |
+                                      | (Process)       |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |Product Details  |
+                                      |  (Process)      |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |  Add to Cart    |
+                                      |  (Process)      |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      |  Checkout       |
+                                      |  (Process)      |
+                                      +-----------------+
+                                             |
+                                             |
+                                             v
+                                      +-----------------+
+                                      | Order Processing|
+                                      |  (Process)      |
+                                      +-----------------+
+
+
+5. What is Flow chart? Create a flowchart to make addition of two numbers
+
+ANS:-
+
+A flowchart is a graphical representation of a process or algorithm, showing the steps and decisions involved.
+
+1. Visualize complex processes
+2. Simplify problem-solving
+3. Improve communication
+4. Analyze and optimize workflows
+
+
+                      +-----------------+
+                      |       Start      |
+                      +-----------------+
+                             |
+                             |
+                             v
+                      +-----------------+
+                      |  Input Num1    |
+                      |  (Get first number) |
+                      +-----------------+
+                             |
+                             |
+                             v
+                      +-----------------+
+                      |  Input Num2    |
+                      |  (Get second number) |
+                      +-----------------+
+                             |
+                             |
+                             v
+                      +-----------------+
+                      |  Add Num1 + Num2  |
+                      |  (Perform addition) |
+                      +-----------------+
+                             |
+                             |
+                             v
+                      +-----------------+
+                      |  Display Result  |
+                      |  (Show sum)      |
+                      +-----------------+
+                             |
+                             |
+                             v
+                      +-----------------+
+                      |       End        |
+                      +-----------------+
+
+
+6. What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+ANS:-
+
+A Use Case Diagram is a graphical representation of the interactions between actors (users or systems) and a system, showing the different ways the system can be used.
+
+1. Identify system functionality
+2. Define user requirements
+3. Model system behavior
+4. Analyze and design system interactions
+
+
+                                         +-----------------------+
+                                         |        Paytm         |
+                                         +-----------------------+
+                                                  |
+                                                  |
+                                                  |
+                          +---------------+       |
+                          |  User (Customer)  |-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Login         |-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Select Biller  |-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Enter Bill Details|-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Make Payment   |-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Confirm Payment |-------+
+                          +---------------+       |
+                                                  |
+                                                  |
+                                                  v
+                          +---------------+       |
+                          |  Receive Payment |-------+
+                          |  Confirmation    |
+                          +---------------+       |
+
+
